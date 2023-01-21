@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio Das Cores Parte 2 </title>
+	<link rel="stylesheet" href="styles.css">
+  <script src="App.js" defer></script>
+</head>
+<body>
+	<div class="circle-container">
+		<div id="circle">
+		  <button class="btn-restart" onclick="initialColor()">Reiniciar</button>
+		</div>
+	</div>
+
+	<div class="btn-sum-container">
+      <button class="btn-sum" onclick="openForm()">
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" width="4" height="34" rx="2" fill="white"/>
+          <rect x="34" y="15" width="4" height="34" rx="2" transform="rotate(90 34 15)" fill="white"/>
+        </svg>
+      </button>
+    </div>
+    
+  <div id="transparent-color"></div>
+	
+	<div id="form-container"> 
+  	<form class="form">
+      <div onclick="closeForm()" id="close-form" class="close-form-container">
+        <svg class="close-form" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15.981" y="5.56293" width="1.73333" height="14.7333" rx="0.866667" transform="rotate(45 15.981 5.56293)" fill="white"/>
+          <rect x="17.2068" y="15.981" width="1.73333" height="14.7333" rx="0.866667" transform="rotate(135 17.2068 15.981)" fill="white"/>
+        </svg>
+      </div>
+      <h1 class="title-form">Criar novo circulo</h1>
+      <input id="hexadecimal" class="input-form" type="text" placeholder="Hexadecimal" onblur="biggerName()">
+      <div class="inputs-checked-form">
+        <label class="label-bold">Cor da label:</label>
+        <input type="radio" name="label-color" id="branco" value="#FFF">
+        <label for="branco">Branco</label>
+        <input type="radio" name="label-color" id="preto" value="#000">
+        <label for="preto">Preto</label>
+      </div>
+      <button id="btnConfirmar" type="button" class="btn-confirm-form" onclick="createElipse()" >Confirmar</button> 
+    </form>
+  </div> 
+
+  <div class="elipses-container"></div>
+</body>
+</html>
