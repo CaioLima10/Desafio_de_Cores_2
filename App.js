@@ -72,7 +72,7 @@ function colorBigCircle(inputColor) {
  function bordeReset() {
    const allElipses = document.getElementsByClassName("elipse");
    for (let i = 0; i < allElipses.length; i++) {
-     allElipses[i].style.border = "flex";
+     allElipses[i].style.border = "none";
    }
  }
 function initialColor() {
