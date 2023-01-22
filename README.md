@@ -13,10 +13,10 @@ escolher a cor "Hexadecimal" e a borda do circulo.
 
 2. Quando eu clicar no botão "x" fechar formulario
 
-3. Se o usuario não digitar nada dentro do campo o botão
+3. Se o usuario não digitar nada dentro do campo, o botão
 deve ficar bloqueado.
 
-4. Ao criar o circulo o formulario deve fechar.
+4. Ao criar o circulo, o formulario deve fechar.
 
 5. Os circulos criados sempre no centro da tela.
 
