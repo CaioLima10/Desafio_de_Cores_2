@@ -150,6 +150,21 @@
     transform: scale(1.2); 
   } 
    @media screen and (max-width: 750px){
+    /* modal */
+    .form {
+      width: 411px;
+      height: 350px;
+    }
+    .input-form {
+      width: 330px;
+      height: 35px;
+    }
+
+  .btn-confirm-form {
+    width: 355px;
+    height: 40px;
+  }
+    /* circulo */
     #circle{
       width: 300px;
       height: 300px;
@@ -171,6 +186,21 @@
     }
   }
   @media screen and (max-width: 500px){
+
+    .form {
+      width: 380px;
+      height: 300px;
+    }
+    .input-form {
+      width: 280px;
+      height: 25px;
+    }
+
+  .btn-confirm-form {
+    width: 305px;
+    height: 35px;
+  }
+   
     #circle{
       width: 250px;
       height: 250px;
